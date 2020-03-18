@@ -1,0 +1,15 @@
+name: 'setup-nodenv'
+description: 'Installs nodenv.'
+branding:
+  icon: 'hexagon'
+  color: 'yellow'
+
+inputs:
+  nodenv-version:
+    description: 'The version of nodenv to install.'
+    required: false
+    default: '1.3.1'
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

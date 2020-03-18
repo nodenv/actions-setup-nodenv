@@ -1,5 +1,5 @@
 const core = require('@actions/core')
-const { installNodenv } = require('.installer')
+const { installNodenv } = require('./installer')
 const { fail } = require('../src/utils')
 
 function run () {

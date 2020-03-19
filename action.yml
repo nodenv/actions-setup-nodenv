@@ -1,4 +1,4 @@
-name: 'setup-nodenv'
+name: 'nodenv/setup-nodenv'
 description: 'Installs nodenv and adds it to PATH'
 branding:
   icon: 'hexagon'

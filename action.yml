@@ -1,7 +1,7 @@
 name: 'nodenv/setup-nodenv'
 description: 'Installs nodenv and adds it to PATH'
 branding:
-  icon: 'hexagon'
+  icon: 'box'
   color: 'yellow'
 
 inputs:

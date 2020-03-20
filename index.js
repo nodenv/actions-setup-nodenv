@@ -1,6 +1,5 @@
 const core = require('@actions/core')
 const { installNodenv } = require('./installer')
-const { fail } = require('../src/utils')
 
 function run () {
   return Promise.resolve().then(() =>
@@ -9,4 +8,4 @@ function run () {
 }
 
 module.exports = run()
-module.exports.catch(fail)
+module.exports.catch(err => core.setFailed(err.message))

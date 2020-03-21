@@ -8,7 +8,7 @@ const path = require('path')
 const existsSync = require('fs').existsSync
 
 process.env.RUNNER_TOOL_CACHE = path.join(__dirname, '../tmp/runner_tools')
-process.env.RUNNER_TEMP = path.join(__dirname, '../tmp/runner_temp')
+process.env.RUNNER_TEMP = path.join(__dirname, '../tmp/runner_tmpdir')
 
 const installNodenv = require('./installer').installNodenv
 

@@ -1,5 +1,7 @@
 /* eslint-env jest */
 
+jest.mock('@actions/core')
+
 const io = require('@actions/io')
 const process = require('process')
 const path = require('path')

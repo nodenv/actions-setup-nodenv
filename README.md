@@ -4,14 +4,13 @@
 [![Test](https://img.shields.io/github/workflow/status/nodenv/actions/Test?label=tests&logo=github)](https://github.com/nodenv/actions/actions?query=workflow%3ATest)
 [![Examples](https://img.shields.io/github/workflow/status/nodenv/actions/Examples?color=orange&label=examples&logo=github)](https://github.com/nodenv/actions/actions?query=workflow%3AExamples)
 
-
 ## Usage
 
 This action installs nodenv and adds it to PATH such that it is available in subsequent steps.
 
 ```yml
 steps:
-  - uses: nodenv/actions/setup-nodenv
+  - uses: nodenv/actions/setup-nodenv@v3
   - run: nodenv version # nodenv is in PATH!
 ```
 
@@ -24,10 +23,10 @@ You may reference either one in your workflows:
 
 ```yml
 # pulls from the monorepo
-- uses: nodenv/actions/setup-nodenv
+- uses: nodenv/actions/setup-nodenv@v3
 
 # pulls from the release repo
-- uses: nodenv/actions-setup-nodenv
+- uses: nodenv/actions-setup-nodenv@v3
 ```
 
 **Issues and Pull Requests should be opened in the [monorepo](https://github.com/nodenv/actions), please!**

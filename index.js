@@ -1,9 +1,9 @@
-const core = require('@actions/core')
-const { installNodenv } = require('./installer')
+const core = require("@actions/core")
+const { installNodenv } = require("./installer")
 
-function run () {
+function run() {
   return Promise.resolve().then(() =>
-    installNodenv(core.getInput('nodenv-version'))
+    installNodenv(core.getInput("nodenv-version"))
   )
 }
 

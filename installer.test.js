@@ -1,4 +1,4 @@
-/* eslint-env jest */
+/* global jest, describe, it, beforeAll, expect */
 
 jest.mock("@actions/core")
 

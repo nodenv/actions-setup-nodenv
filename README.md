@@ -1,7 +1,7 @@
 # setup-nodenv [![monorepo](https://img.shields.io/badge/---?style=social&logo=github&label=monorepo)](https://github.com/nodenv/actions)
 
-[![Latest Release](https://img.shields.io/github/v/release/nodenv/actions-setup-nodenv?logo=github&sort=semver)](https://github.com/nodenv/actions-setup-nodenv/releases/latest)
-[![Test](https://img.shields.io/github/actions/workflow/status/nodenv/actions/test.yml?branch=main&label=tests&logo=github)](https://github.com/nodenv/actions/actions/workflows/test.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/actions/test.yml?label=tests&logo=github)](https://github.com/nodenv/actions/actions/workflows/test.yml)
+[![Latest GitHub Release](https://img.shields.io/github/v/release/nodenv/actions-setup-nodenv?label=github&logo=github&sort=semver)](https://github.com/nodenv/actions-setup-nodenv/releases/latest)
 [![Examples](https://img.shields.io/github/actions/workflow/status/nodenv/actions/examples.yml?branch=main&color=orange&label=examples&logo=github)](https://github.com/nodenv/actions/actions/workflows/examples.yml)
 
 ## Usage
